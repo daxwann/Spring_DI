@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: dax.springframework.spring_DI.SpringDiApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.43 s - in dax.springframework.spring_DI.SpringDiApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.67 s - in dax.springframework.spring_DI.SpringDiApplicationTests
