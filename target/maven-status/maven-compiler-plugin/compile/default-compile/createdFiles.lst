@@ -1,2 +1,5 @@
 dax/springframework/spring_DI/controllers/MyController.class
+dax/springframework/spring_DI/controllers/PropertyInjectedController.class
 dax/springframework/spring_DI/SpringDiApplication.class
+dax/springframework/spring_DI/services/GreetingServiceImpl.class
+dax/springframework/spring_DI/services/GreetingService.class

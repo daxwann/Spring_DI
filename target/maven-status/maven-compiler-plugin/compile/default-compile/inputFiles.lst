@@ -1,1 +1,5 @@
 /home/xiaoda/Documents/Spring_DI/src/main/java/dax/springframework/spring_DI/SpringDiApplication.java
+/home/xiaoda/Documents/Spring_DI/src/main/java/dax/springframework/spring_DI/controllers/PropertyInjectedController.java
+/home/xiaoda/Documents/Spring_DI/src/main/java/dax/springframework/spring_DI/services/GreetingServiceImpl.java
+/home/xiaoda/Documents/Spring_DI/src/main/java/dax/springframework/spring_DI/services/GreetingService.java
+/home/xiaoda/Documents/Spring_DI/src/main/java/dax/springframework/spring_DI/controllers/MyController.java
