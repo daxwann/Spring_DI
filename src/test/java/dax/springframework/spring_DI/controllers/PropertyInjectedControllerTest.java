@@ -3,6 +3,7 @@ package dax.springframework.spring_DI.controllers;
 import dax.springframework.spring_DI.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.stereotype.Controller;
 
 import static org.junit.jupiter.api.Assertions.*;
 
