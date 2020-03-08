@@ -1,10 +1,8 @@
 package dax.springframework.spring_DI.controllers;
 
-import dax.springframework.spring_DI.services.GreetingServiceImpl;
+import dax.springframework.spring_DI.services.ConstructorGreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SetterInjectedControllerTest {
   SetterInjectedController controller;
@@ -12,7 +10,7 @@ class SetterInjectedControllerTest {
   @BeforeEach
   void setUp() {
     controller = new SetterInjectedController();
-    controller.setGreetingService(new GreetingServiceImpl());
+    controller.setGreetingService(new ConstructorGreetingServiceImpl());
   }
 
   @Test

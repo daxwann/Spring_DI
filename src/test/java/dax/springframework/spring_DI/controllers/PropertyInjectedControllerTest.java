@@ -1,11 +1,8 @@
 package dax.springframework.spring_DI.controllers;
 
-import dax.springframework.spring_DI.services.GreetingServiceImpl;
+import dax.springframework.spring_DI.services.ConstructorGreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.stereotype.Controller;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PropertyInjectedControllerTest {
   PropertyInjectedController controller;
@@ -13,7 +10,7 @@ class PropertyInjectedControllerTest {
   @BeforeEach
   void setUp() {
     controller = new PropertyInjectedController();
-    controller.greetingService = new GreetingServiceImpl();
+    controller.greetingService = new ConstructorGreetingServiceImpl();
   }
 
   @Test
