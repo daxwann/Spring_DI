@@ -1,9 +1,6 @@
 package dax.springframework.spring_DI;
 
-import dax.springframework.spring_DI.controllers.ConstructorInjectedController;
-import dax.springframework.spring_DI.controllers.MyController;
-import dax.springframework.spring_DI.controllers.PropertyInjectedController;
-import dax.springframework.spring_DI.controllers.SetterInjectedController;
+import dax.springframework.spring_DI.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -13,6 +10,10 @@ public class SpringDiApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SpringDiApplication.class, args);
+
+		System.out.println("------ I18N");
+		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+		System.out.println(i18nController.sayHello());
 
 		System.out.println("------ Primary Bean");
 		MyController myController = (MyController) ctx.getBean("myController");
@@ -30,5 +31,4 @@ public class SpringDiApplication {
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
 	}
-
 }
